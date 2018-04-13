@@ -6,9 +6,10 @@ function submit(){
     localStorage.setItem("Name",nme.value);
     localStorage.setItem("Email",email.value);
     localStorage.setItem("Password",pass.value);
+    
     return false;
-}
 
+}
 function checkValidation(){
     if(nme.value =="" || nme.value ==" ")
     {
