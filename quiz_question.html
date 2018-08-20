@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style_quiz.css">
+</head>
+
+<body>
+    <div id="quizContainer">
+        <p>Time</p>
+        <h1 id="timer"></h1>
+        <h3 id="question"></h3>
+        <label>
+            <input type="radio" value="1" name="option">
+            <span id="option1"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="2" name="option">
+            <span id="option2"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="3" name="option">
+            <span id="option3"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" value="4" name="option">
+            <span id="option4"></span>
+        </label>
+        <br>
+        <button onclick="next()">Next</button>
+    </div>
+    <div id="resultContainer">
+        <p>Total Correct Answer</p>
+        <p id="score"> </p>
+    </div>
+    <footer>
+        <p>&copy; Copyright 2018 by Muhammad Usama | All Right Reserved</p>
+    </footer>
+</body>
+<script src="app_Test.js"></script>
+
+</html>
